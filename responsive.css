@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color: #00f1f1;
+    --medium: #1f4343;
+    --bgcolor: #020010;
+}
+
+@media only screen and (max-width:1300px) {
+    article .cards .image-container {
+        height: 310px;
+        width: 480px;
+    }
+
+    article .cards .image-container h2 {
+        width: 475px;
+        font-size: 22px;
+    }
+
+    article .cards .card-container .card {
+        height: 310px;
+        width: 200px;
+    }
+
+    article .cards .card-container .card .front .img img {
+        height: 120px;
+        width: 130px;
+    }
+
+    article .cards .card-container .card .front h2 {
+        font-size: 20px;
+    }
+
+    article .cards .card-container .card .front .hold {
+        font-size: 12px;
+    }
+
+    article .projects .project>.logo {
+        width: 90px;
+        height: 90px;
+    }
+
+    main article .projects .project h1 {
+        font-size: 70px;
+    }
+
+    main article .projects .project .properties {
+        font-size: 14px;
+        margin-top: -20px;
+    }
+}
+
+@media only screen and (max-width:980px) {
+
+    header>.logo,
+    header h1 {
+        transform: scale(0.9);
+    }
+
+    header>h1 {
+        margin-left: -20px;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    label {
+        display: block;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    aside .resume {
+        transform: scale(0.9);
+        left: 46px;
+        top: 50px;
+    }
+
+    aside .linked {
+        transform: scale(0.9);
+        right: 46px;
+        top: 0px;
+    }
+
+    main {
+        margin-top: 0px;
+    }
+
+    main .Myimage {
+        transform: scale(0.9);
+    }
+
+    main .heading {
+        margin: 10px auto;
+        transform: scale(0.9);
+    }
+
+    main article .cards {
+        flex-direction: column;
+        margin-top: -28px;
+    }
+
+    main article .cards .image-container {
+        margin: auto;
+    }
+
+    main article .cards .card-container {
+        margin: 16px auto -8px auto;
+    }
+
+    main article .text-typing {
+        width: max-content;
+    }
+
+    main article .summary {
+        padding: 12px 190px;
+    }
+
+    main article .projects {
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .profile-photo-container {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .profile-photo-container {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    main .Myimage {
+        transform: scale(0.67);
+        margin-top: -50px;
+    }
+
+    .aside {
+        position: absolute;
+        top: 428px;
+        height: 194px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aside .resume,
+    .aside .linked {
+        position: static;
+    }
+
+    .aside .resume {
+        margin-right: 12px;
+    }
+
+    .aside .resume a img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .aside .resume>img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .aside .linked {
+        flex-direction: row;
+        height: max-content;
+    }
+
+    .aside .linked a {
+        margin: 0px 12px;
+    }
+
+    main .heading {
+        margin-top: -50px;
+        margin-bottom: 68px;
+    }
+
+    main .heading h1 {
+        font-size: 20px;
+    }
+
+    main article .scroll .btn-3 {
+        margin-top: 128px;
+        margin-bottom: 30px;
+    }
+
+    article .cards .image-container {
+        height: 188px;
+        width: 332px;
+    }
+
+    article .cards .image-container h2 {
+        width: 330px;
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    article .cards .image-container p {
+        font-size: 12px;
+        padding: 0px 10px;
+    }
+
+    article .cards .card-container .card {
+        height: 224px;
+        width: 142px;
+    }
+
+    article .cards .card-container .card .front .img img {
+        height: 76px;
+        width: 84px;
+    }
+
+    article .cards .card-container .card .front h2 {
+        font-size: 14px;
+    }
+
+    article .cards .card-container .card .front .hold {
+        font-size: 8px;
+        bottom: 16px;
+      }
+
+    main article .projects .project {
+        margin: 8px auto;
+        width: 330px;
+        height: 252px;
+    }
+
+    main article .projects .project h1 {
+        font-size: 46px;
+    }
+
+    article .projects .project>.logo {
+        height: 60px;
+        width: 60px;
+    }
+
+    main article .projects .project .properties {
+        font-size: 10px;
+        margin-top: -60px;
+    }
+
+    @keyframes slide {
+        100% {
+            top: -452px;
+        }
+    }
+
+    main article .summary {
+        padding: 12px 96px;
+    }
+
+    footer .foot p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    header {
+        height: 74px;
+    }
+
+    header>.logo,
+    header h1 {
+        transform: scale(0.74);
+        margin-left: -14px;
+    }
+
+    header>h1 {
+        margin-left: -46px;
+    }
+
+    label img {
+        transform: scale(0.7);
+        margin-top: -12px;
+        margin-right: -12px;
+    }
+
+    .sidebar {
+        width: 150px;
+    }
+
+    #check:checked~label .menu {
+        right: 162px;
+    }
+
+    #check:checked~label .cross {
+        right: 118px;
+    }
+
+    .sidebar h2 {
+        font-size: 20px;
+        padding: 23px 44px;
+    }
+
+    .sidebar ul li {
+        line-height: 48px;
+    }
+
+    .sidebar ul li a {
+        font-size: 16px;
+    }
+
+    main .heading h1 {
+        font-size: 18px;
+        text-align: center
+    }
+
+    .aside .resume a img {
+        height: 68px;
+        width: 68px;
+    }
+
+    .aside .resume>p {
+        font-size: 10px;
+    }
+
+    .aside .linked a {
+        font-size: 12px;
+    }
+
+    .aside .linked a img {
+        height: 70px;
+        width: 70px;
+    }
+
+    main article .cards .image-container {
+        height: 184px;
+        width: 326px;
+    }
+
+    main article .cards .image-container h2 {
+        width: 310px;
+        font-size: 16px;
+    }
+
+    article .cards .image-container p {
+        font-size: 10px;
+    }
+
+    main article .text-typing .name {
+        font-size: 36px;
+    }
+
+    main article .text-typing ul {
+        height: 48px;
+    }
+
+    main article .text-typing ul li {
+        font-size: 36px;
+    }
+
+    @keyframes slide {
+        100% {
+            top: -272px;
+        }
+    }
+
+    main article .summary {
+        padding: 12px 36px;
+    }
+
+    main article .summary p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Website</title>
+    <link rel="shortcut icon" href="svg/HR.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <div class="gridy-background">
+        <div class="ellipse">
+            <img src="svg/ellipse1.svg" alt="ellipse">
+            <img src="svg/ellipse2.svg" alt="ellipse">
+            <img src="svg/ellipse3.svg" alt="ellipse">
+        </div>
+    </div>
+    <header>
+        <div class="logo">
+            <img src="svg/HR.svg" alt="logo">
+        </div>
+        <h1>Harsh Rajora</h1>
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <input type="checkbox" name="checkbox" id="check">
+    <label for="check">
+        <img src="svg/side-menu.svg" alt="side-menu" class="menu">
+        <img src="svg/side-cross.svg" alt="side-cross" class="cross">
+    </label>
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="aside">
+        <div class="resume">
+            <a href="CV/adityaNewResume.pdf" download="aditya-Resume.pdf"><img src="svg/Resume.svg" alt="Resume"></a>
+            <img src="svg/Up Arrow.svg" alt="arrow">
+            <p>CLick here for<br>Download My Resume</p>
+        </div>
+        <div class="linked">
+            <a href="https://github.com/Adityakr321" target="_blank"><img src="svg/github.svg" alt="github">
+                <p>Github Profile</p>
+            </a>
+            <a href="https://www.linkedin.com/in/aditya-kumar-5b7756289/" target="_blank"><img src="svg/linkedin.svg"
+                    alt="linkedin">
+                <p>LinkedIn Profile</p>
+            </a>
+        </div>
+    </div>
+    <main>
+        <div class="Myimage" id="Home">
+            <a href="https://www.instagram.com/aditya_kmr_21/" target="_blank">
+                <div class="Myimage" id="Home">
+                    <div class="profile-photo-container">
+                        <img class="profile-photo" src="./img/image.png"
+                            alt="Profile Photo">
+                    </div>
+                </div>
+            </a>
+            <!-- <div class="insta">
+                <p>Instagram ID</p>
+            </div> -->
+        </div>
+        <div class="heading">
+            <h1>Hi! I'm Aditya Kumar, A Sull Stack Developer</h1>
+        </div>
+        <article>
+            <div class="scroll">
+                <a href="#card">
+                    <button class="btn-3">
+                        <img class="svgIcon" src="svg/down-arrow.svg" alt="down-arrow">
+                    </button>
+                </a>
+            </div>
+            <div class="cards" id="card">
+                <div class="image-container">
+                    <img src="img/laptop-image.jpg" alt="laptop-image">
+                    <h2>I am ready to work together on<br>interesting web projects.</h2>
+                    <p>Open for freelance or<br>team-based projects</p>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <div class="img">
+                                <img src="img/weblogo.png" alt="netflix">
+                            </div>
+                            <h2>MechAA<br>By Aditya Kumar</h2>
+                            <div class="hold">&lt;&lt; Hold for Read more &gt;&gt;</div>
+                        </div>
+                        <div class="back">
+                            Mechaa is a mechanic finder web app built with Node.js, Express.js, and MongoDB, allowing
+                            users to locate nearby vehicle mechanics and mechanics to register their services in remote
+                            areas.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="front">
+                            <div class="img">
+                                <img src="img/travelCoimg2.jpg" alt="netflix">
+                            </div>
+                            <h2>TravelCo<br>By Aditya Kumar</h2>
+                            <div class="hold">&lt;&lt; Hold for Read more &gt;&gt;</div>
+                        </div>
+                        <div class="back">
+                            <p>TravelCo is a trip registration platform using Node.js, Express.js, and MongoDB, where
+                                users can register for trips and fetch their registration details by email.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-typing" id="About">
+                <div class="name">I'm </div>
+                <ul>
+                    <li><span>Developer</span></li>
+                    <li><span>Designer</span></li>
+                    <li><span>Creator</span></li>
+                    <li><span>Freelancer</span></li>
+                    <li><span>Editor</span></li>
+                </ul>
+            </div>
+            <div class="summary">
+                <p>I am a dedicated and highly motivated individual with a Diploma in Computer Science
+                    Engineering and currently pursuing B.Tech in Information Technology and Engineering. My career focus
+                    is
+                    on web development, with a particular passion for frontend development. I am known for my sincere
+                    and
+                    hardworking nature, I give my best in every task. I am committed to continuous self-improvement I
+                    continuously strive for personal and professional growth, aiming to become the best version of
+                    myself.</p>
+            </div>
+            <div class="projects" id="Projects">
+                <div class="netflix project">
+                    <div class="logo">
+                        <img src="img/weblogo.png" alt="netflix-logo">
+                    </div>
+                    <h1>MechAA</h1>
+                    <div class="properties">
+                        <ul>
+                            <li>Overview: A mechanic finder app for remote locations.</li>
+                            <li>Home Page: Shows search bar and mechanic listings.</li>
+                            <li>Registration: Mechanics can register their details.</li>
+                            <li>Search: Users search mechanics by location.</li>
+                            <li>UI: Responsive design with EJS rendering.</li>
+                            <li>Tech Stack: HTML, CSS, j.s, Node.js, Express, MongoDB, EJS, Git.</li>
+                        </ul>
+                    </div>
+                    <div class="visit">
+                        <a href="https://mechaa.onrender.com/" target="_blank"><button>Visit</button></a>
+                    </div>
+                </div>
+                <div class="spotify project">
+                    <div class="logo">
+                        <img src="img/travelCoimg2.jpg" alt="spotify-logo">
+                    </div>
+                    <h1>TravelCo</h1>
+                    <div class="properties">
+                        <ul>
+                            <li>Overview: A trip registration and lookup web app.</li>
+                            <li>Home Page: Shows destinations and register button.</li>
+                            <li>Form: Users register with name, email, and trip.</li>
+                            <li>Lookup: Fetch registration by email ID.</li>
+                            <li>UI: Clean, responsive EJS-based design.</li>
+                            <li>Tech Stack: Node.js, Express, HTMl, CSS , j.s, MongoDB, EJS, Git.</li>
+                        </ul>
+                    </div>
+                    <div class="visit">
+                        <a href="https://travelco-gy5k.onrender.com/" target="_blank"><button>Visit</button></a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <section id="Contact">
+            <h3>
+                Get In <span>Touch</span>
+            </h3>
+            <h2>
+                Contact Me
+            </h2>
+            <div class="contact-container">
+                <form action="" class="contact-form" id="contact-form">
+                    <div class="contact-group">
+                        <input type="text" name="user-name" required placeholder="Enter Your Name" class="contact-input"
+                            spellcheck="true">
+                        <input type="email" name="user-email" required placeholder="Enter Your Email"
+                            class="contact-input" spellcheck="true">
+                    </div>
+
+                    <textarea name="user-project" required placeholder="Enter Your Message Here" class="contact-input"
+                        spellcheck="true"></textarea>
+
+                    <p class="contact-message" id="contact-message"></p>
+
+                    <!-- <button type="submit" class="contact-button">
+                            Send Message
+                    </button> -->
+
+                    <button type="submit" class="contact-button">
+                        <div class="svg-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path fill="currentColor"
+                                    d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z">
+                                </path>
+                            </svg>
+                        </div>
+                        <span>Send</span>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="foot">
+            <p>Copyright &copy; 2025 Developer - ADITYA</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
